@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import FilmList from './components/FilmList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="films-container">
+      <h1>Upcoming Film Releases for UK</h1>
+      <hr></hr>
+      <FilmList/>
+      <hr></hr>
+      <p>This will be the footer which will be a link</p>
     </div>
   );
 }
