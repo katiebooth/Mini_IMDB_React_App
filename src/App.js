@@ -1,14 +1,14 @@
 import './App.css';
-import FilmList from './components/FilmList';
+import FilmsContainer from './containers/FilmsContainer';
 
 function App() {
   return (
     <div className="films-container">
       <h1>Upcoming Film Releases for UK</h1>
       <hr></hr>
-      <FilmList/>
+      <FilmsContainer/>
       <hr></hr>
-      <p>This will be the footer which will be a link</p>
+      <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a>
     </div>
   );
 }

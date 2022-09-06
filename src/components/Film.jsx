@@ -1,8 +1,8 @@
-const Film = () => {
+const Film = ({url, title}) => {
     return (
-    <>
-    <a href="https://www.imdb.com/title/tt4633694/?ref_=rlm">"Spider-Man: Into the Spider-Verse"</a>
-    </>
+    <li>
+    <a href={url}>{title}</a>
+    </li>
     )
 }
 
