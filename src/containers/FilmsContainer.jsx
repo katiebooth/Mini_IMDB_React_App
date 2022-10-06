@@ -2,7 +2,7 @@ import FilmsList from "../components/FilmsList"
 import { useState } from "react"
 
 const FilmsContainer = () => {
-    const [films, setFilms] = useState(
+    const films =
         [
         {
             id: 1,
@@ -29,7 +29,6 @@ const FilmsContainer = () => {
             url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
             }
           ]
-    ) 
     return <FilmsList films={films}/>
 }
 

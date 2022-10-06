@@ -9,7 +9,9 @@ body {
 .films-container {
   background-color: #282c34;
   border: 5px solid white;
-  margin: 20%;
+  margin: 4em auto;
+  width:40%;
+  min-width: 300px;
   color: white;
   padding: 2pt;
 }
